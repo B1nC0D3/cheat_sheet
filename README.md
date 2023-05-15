@@ -1,8 +1,10 @@
 # linux service sample
 
+sudo nano /etc/systemd/system/name_of.service
+
 ```
 [Unit]
-Description=My test service
+Description=Ur description of service
 After=multi-user.target[Service]
 Type=simple
 Restart=always
